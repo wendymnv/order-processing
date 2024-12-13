@@ -1,0 +1,12 @@
+{
+  "pokemon_v2_item": [
+    {
+      "name": "Pikachu",
+      "id": 25
+    },
+    {
+      "name": "Charmander",
+      "id": 4
+    }
+  ]
+}

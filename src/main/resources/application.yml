@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order-processing
+order-processing:
+  topic:
+    consumer:
+      foo: orders
+      group-id: queueOrderDevelop
+      auto-offset-reset: latest
+  kafka:
+    bootstrap-servers: 'localhost:29092'
+  data:
+    url: "mongodb://localhost:27017"
+    name-db: "orderdb"
+  products:
+    url: 'https://fakestoreapi.com/products/'
+    time-connection: 10
+  customers:
+    url: 'https://beta.pokeapi.co/graphql/v1beta'
+

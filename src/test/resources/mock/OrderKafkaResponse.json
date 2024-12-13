@@ -1,0 +1,19 @@
+{
+  "event": {
+    "description": "test",
+    "troubleOrder": {
+      "id": "1",
+      "correlationId": "correlationId",
+      "type": "CU-Donation",
+      "status": "CREATED",
+      "orderDate": "2023-10-01T10:00:00Z",
+      "deliveryDate": "2023-10-05T10:00:00Z",
+      "customerId": "customerId",
+      "shippingAddress": "123 Main St, Anytown, USA",
+      "totalAmount": 100.0,
+      "paymentMethod": "Credit Card",
+      "trackingNumber": "track123",
+      "productIds": ["prod1", "prod2"]
+    }
+  }
+}

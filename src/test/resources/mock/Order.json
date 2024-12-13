@@ -1,0 +1,35 @@
+{
+  "id": "22",
+  "customerId": "cust1",
+  "type": "CU-Donation",
+  "products": [
+    {
+      "id": "prod1",
+      "name": "Product 1",
+      "price": 50.0,
+      "description": "Description of Product 1",
+      "category": "Category 1",
+      "stockQuantity": 100,
+      "imageUrl": "http://example.com/prod1.jpg",
+      "weight": 1.0,
+      "dimensions": "10x10x10"
+    },
+    {
+      "id": "prod2",
+      "name": "Product 2",
+      "price": 50.0,
+      "description": "Description of Product 2",
+      "category": "Category 2",
+      "stockQuantity": 200,
+      "imageUrl": "http://example.com/prod2.jpg",
+      "weight": 2.0,
+      "dimensions": "20x20x20"
+    }],
+  "status": "CREATED",
+  "orderDate": "2023-10-01T10:00:00Z",
+  "deliveryDate": "2023-10-05T10:00:00Z",
+  "shippingAddress": "123 Main St, Anytown, USA",
+  "totalAmount": 100.0,
+  "paymentMethod": "Credit Card",
+  "trackingNumber": "track123"
+}

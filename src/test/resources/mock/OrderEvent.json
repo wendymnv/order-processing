@@ -1,0 +1,21 @@
+{
+  "eventId": "19",
+  "eventTime": "2023-10-01T12:00:00Z",
+  "eventType": "OrderCreated",
+  "event": {
+    "description": "This is a test event",
+    "troubleOrder": {
+      "id": "12336",
+      "correlationId": "MQ-3015",
+      "type": "CU-Donation",
+      "orderDate": "2023-10-01T10:00:00Z",
+      "deliveryDate": "2023-10-05T10:00:00Z",
+      "customerId": "974",
+      "shippingAddress": "Peru",
+      "totalAmount": 23100.50,
+      "paymentMethod": "Debito Card",
+      "trackingNumber": "track100",
+      "productIds": ["1","2"]
+    }
+  }
+}
